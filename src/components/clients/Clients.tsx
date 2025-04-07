@@ -1,5 +1,3 @@
-import React from "react";
-
 const Clients = () => {
   return (
     <section id="clients" class="clients section light-background">

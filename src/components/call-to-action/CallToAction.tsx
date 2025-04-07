@@ -1,5 +1,3 @@
-import React from "react";
-
 const CallToAction = () => {
   return (
     <section id="call-to-action" class="call-to-action section dark-background">

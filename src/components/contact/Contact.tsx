@@ -1,18 +1,12 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <section id="contact" class="contact section">
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>For questions or concerns, please feel free to contact us.</p>
       </div>
       {/* <!-- End Section Title --> */}
-
       <div class="container" data-aos="fade" data-aos-delay="100">
         <div class="row gy-4">
           <div class="col-lg-4">
@@ -50,7 +44,7 @@ const Contact = () => {
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>triadmwa@gmail.com</p>
               </div>
             </div>
             {/* <!-- End Info Item --> */}

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer id="footer" class="footer light-background">
@@ -10,21 +8,21 @@ const Footer = () => {
           eligendi fuga maxime saepe commodi placeat.
         </p>
         <div class="social-links d-flex justify-content-center">
-          <a href="">
+          {/* <a href="">
             <i class="bi bi-twitter-x"></i>
           </a>
           <a href="">
             <i class="bi bi-facebook"></i>
-          </a>
-          <a href="">
+          </a> */}
+          <a href="https://www.instagram.com/triadmwa" target="_blank">
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="">
+          {/* <a href="">
             <i class="bi bi-skype"></i>
           </a>
           <a href="">
             <i class="bi bi-linkedin"></i>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="copyright">

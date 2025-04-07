@@ -5,7 +5,9 @@ const Header = () => {
         <a href="index.html" class="logo d-flex align-items-center">
           {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
           {/* <!-- <img src="/img/logo.png" alt=""> --> */}
-          <h1 class="sitename">Avilon</h1>
+          <h1 class="sitename" title="Triad Muslim Women of Alliance">
+            TMWA
+          </h1>
         </a>
 
         <nav id="navmenu" class="navmenu">

@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <section id="about" class="about section">
@@ -14,15 +12,19 @@ const About = () => {
           </div>
 
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="inner-title">Consequatur eius et magnam</h2>
+            <h2 class="inner-title">The Triad Muslim Women of Alliance</h2>
             <div class="our-story">
-              <h4>Est 1988</h4>
+              <h4>Est 2024</h4>
               <h3>Our Story</h3>
               <p>
-                Inventore aliquam beatae at et id alias. Ipsa dolores amet
-                consequuntur minima quia maxime autem. Quidem id sed ratione.
-                Tenetur provident autem in reiciendis rerum at dolor. Aliquam
-                consectetur laudantium temporibus dicta minus dolor.
+                The Triad Muslim Women of Alliance (TMWA) was established on
+                December 29, 2024, by a group of local Muslimahs desiring to
+                create a healthy and meaningful bond with other Muslimahs within
+                the community for the sake of Allah (swt). TMWA is not
+                affiliated with a masjid but is an organization supported by
+                Self-Help Information Network and Exchange (SHINE), a non-profit
+                organization, founded by Robyn Abdusamad. TMWA welcomes any
+                Muslimah who is in support of our mission and goals.
               </p>
               <ul>
                 <li>
@@ -38,13 +40,13 @@ const About = () => {
                   <span>Ullamco laboris nisi ut aliquip ex ea</span>
                 </li>
               </ul>
-              <p>
+              {/* <p>
                 Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non
                 nesciunt suscipit repellendus porro in quo eveniet. Molestias in
                 maxime doloremque.
-              </p>
+              </p> */}
 
-              <div class="watch-video d-flex align-items-center position-relative">
+              {/* <div class="watch-video d-flex align-items-center position-relative">
                 <i class="bi bi-play-circle"></i>
                 <a
                   href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
@@ -52,7 +54,7 @@ const About = () => {
                 >
                   Watch Video
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

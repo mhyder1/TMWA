@@ -12,13 +12,12 @@ const Hero = () => {
         <div class="carousel-item active">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
-              Welcome to <span>Our Avilon</span>
+              Our <span>Mission</span>
             </h2>
             <p class="animate__animated animate__fadeInUp">
-              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-              repellendus deleniti vel. Minus et tempore modi architecto.
+              To empower Muslim women through education, mentorship and social
+              engagement, fostering a strong sense of community and sisterhood
+              while contributing to the grater good.
             </p>
             <a
               href="#about"
@@ -33,13 +32,11 @@ const Hero = () => {
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
-              Lorem Ipsum Dolor
+              Reminders of sisterhood in Islam
             </h2>
             <p class="animate__animated animate__fadeInUp">
-              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-              repellendus deleniti vel. Minus et tempore modi architecto.
+              She loves them as sisters for the sake of Allah - "The believers
+              are but a single brotherhood..." [Quran 49:10]
             </p>
             <a
               href="#about"
@@ -54,13 +51,12 @@ const Hero = () => {
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
-              Sequi ea ut et est quaerat
+              Reminders of sisterhood in Islam
             </h2>
             <p class="animate__animated animate__fadeInUp">
-              Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-              est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-              mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-              repellendus deleniti vel. Minus et tempore modi architecto.
+              She meets them with a smiling face - "...those who restrain all
+              anger and pardon (all) men - for Allah loves those who do good."
+              [Quran 3:134]
             </p>
             <a
               href="#about"
