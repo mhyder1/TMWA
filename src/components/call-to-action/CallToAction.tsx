@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <section id="call-to-action" class="call-to-action section dark-background">
+    <section id="join" class="call-to-action section dark-background">
       <img src="/img/cta-bg.jpg" alt="" />
 
       <div class="container">
@@ -11,15 +11,25 @@ const CallToAction = () => {
         >
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Call To Action</h3>
+              <h3>Join our team</h3>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Passionate about community and culture? Join the NC Muslim
+                Festival Planning Committee! We're looking for reliable,
+                organized, and resourceful go-getters who live in North
+                Carolina. If you're trustworthy and ready to help bring this
+                incredible event to life, submit your application today and be
+                part of something special!
               </p>
-              <a class="cta-btn" href="#">
-                Call To Action{" "}
+              If you reside in NC and would like to be a part of the NCMF
+              planning committee, click the button below to complete an
+              application.
+              <p></p>
+              <a
+                class="cta-btn"
+                href="https://form.jotform.com/243415364864158"
+                target="_blank"
+              >
+                Join Us
               </a>
             </div>
           </div>

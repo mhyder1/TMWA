@@ -10,7 +10,7 @@ const Contact = () => {
       <div class="container" data-aos="fade" data-aos-delay="100">
         <div class="row gy-4">
           <div class="col-lg-4">
-            <div
+            {/* <div
               class="info-item d-flex"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -20,10 +20,10 @@ const Contact = () => {
                 <h3>Address</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
-            </div>
+            </div> */}
             {/* <!-- End Info Item --> */}
 
-            <div
+            {/* <div
               class="info-item d-flex"
               data-aos="fade-up"
               data-aos-delay="300"
@@ -33,9 +33,24 @@ const Contact = () => {
                 <h3>Call Us</h3>
                 <p>+1 5589 55488 55</p>
               </div>
-            </div>
+            </div> */}
             {/* <!-- End Info Item --> */}
 
+            {/* <div
+              class="info-item d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>triadmwa@gmail.com</p>
+              </div>
+            </div> */}
+            {/* <!-- End Info Item --> */}
+          </div>
+
+          <div class="col-lg-8">
             <div
               class="info-item d-flex"
               data-aos="fade-up"
@@ -47,11 +62,7 @@ const Contact = () => {
                 <p>triadmwa@gmail.com</p>
               </div>
             </div>
-            {/* <!-- End Info Item --> */}
-          </div>
-
-          <div class="col-lg-8">
-            <form
+            {/* <form
               action="forms/contact.php"
               method="post"
               class="php-email-form"
@@ -109,7 +120,7 @@ const Contact = () => {
                   <button type="submit">Send Message</button>
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
           {/* <!-- End Contact Form --> */}
         </div>

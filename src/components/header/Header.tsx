@@ -23,13 +23,16 @@ const Header = () => {
             <li>
               <a href="#services">Services</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#gallery">Gallery</a>
+            </li> */}
+            <li>
+              <a href="#join">Join</a>
             </li>
             <li>
               <a href="#team">Team</a>
             </li>
-            <li class="dropdown">
+            {/* <li class="dropdown">
               <a href="#">
                 <span>Dropdown</span>{" "}
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
@@ -71,9 +74,14 @@ const Header = () => {
                   <a href="#">Dropdown 4</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#donate">
+                <button class="donate-button">DONATE</button>
+              </a>
             </li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

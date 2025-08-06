@@ -17,7 +17,7 @@ const Hero = () => {
             <p class="animate__animated animate__fadeInUp">
               To empower Muslim women through education, mentorship and social
               engagement, fostering a strong sense of community and sisterhood
-              while contributing to the grater good.
+              while contributing to the greater good.
             </p>
             <a
               href="#about"
