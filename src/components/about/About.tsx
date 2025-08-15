@@ -26,7 +26,7 @@ const About = () => {
                 organization, founded by Robyn Abdusamad. TMWA welcomes any
                 Muslimah who is in support of our mission and goals.
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <i class="bi bi-check-circle"></i>{" "}
                   <span>Ullamco laboris nisi ut aliquip ex ea commo</span>
@@ -39,7 +39,7 @@ const About = () => {
                   <i class="bi bi-check-circle"></i>{" "}
                   <span>Ullamco laboris nisi ut aliquip ex ea</span>
                 </li>
-              </ul>
+              </ul> */}
               {/* <p>
                 Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non
                 nesciunt suscipit repellendus porro in quo eveniet. Molestias in
