@@ -20,10 +20,7 @@ const Team = () => {
               <div class="member-content">
                 <h4>Robyn Abdusamad</h4>
                 <span>Interim President</span>
-                <p>
-                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio
-                  veritatis perspiciatis quaerat qui aut aut aut
-                </p>
+                {/* <p>details</p>
                 <div class="social">
                   <a href="">
                     <i class="bi bi-twitter-x"></i>
@@ -37,7 +34,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -53,10 +50,7 @@ const Team = () => {
               <div class="member-content">
                 <h4>- Open -</h4>
                 <span>Vice President</span>
-                <p>
-                  Repellat fugiat adipisci nemo illum nesciunt voluptas
-                  repellendus. In architecto rerum rerum temporibus
-                </p>
+                {/* <p>details</p>
                 <div class="social">
                   <a href="">
                     <i class="bi bi-twitter-x"></i>
@@ -70,7 +64,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -86,10 +80,7 @@ const Team = () => {
               <div class="member-content">
                 <h4>Kimberly Harper</h4>
                 <span>Secretary</span>
-                <p>
-                  Voluptas necessitatibus occaecati quia. Earum totam
-                  consequuntur qui porro et laborum toro des clara
-                </p>
+                {/* <p>details</p>
                 <div class="social">
                   <a href="">
                     <i class="bi bi-twitter-x"></i>
@@ -103,7 +94,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -118,11 +109,11 @@ const Team = () => {
               <div class="member-content">
                 <h4>Hasinah Sargeant</h4>
                 <span>Treasurer</span>
-                <p>
+                {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam
                   consequuntur qui porro et laborum toro des clara
-                </p>
-                <div class="social">
+                </p> */}
+                {/* <div class="social">
                   <a href="">
                     <i class="bi bi-twitter-x"></i>
                   </a>
@@ -135,7 +126,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -150,7 +141,7 @@ const Team = () => {
               <div class="member-content">
                 <h4>- Open -</h4>
                 <span>Membership Coordinator</span>
-                <p>
+                {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam
                   consequuntur qui porro et laborum toro des clara
                 </p>
@@ -167,7 +158,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -182,7 +173,7 @@ const Team = () => {
               <div class="member-content">
                 <h4>Brenda Kirkland</h4>
                 <span>Communications Officer</span>
-                <p>
+                {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam
                   consequuntur qui porro et laborum toro des clara
                 </p>
@@ -199,7 +190,7 @@ const Team = () => {
                   <a href="">
                     <i class="bi bi-linkedin"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

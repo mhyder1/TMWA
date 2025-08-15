@@ -4,10 +4,7 @@ const Services = () => {
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
         <h2>Events</h2>
-        <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
-        </p>
+        <p>Join us at our upcoming events</p>
       </div>
       {/* <!-- End Section Title --> */}
 
