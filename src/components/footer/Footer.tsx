@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <footer id="footer" class="footer light-background">
       <div class="container">
-        <h3 class="sitename">Avilon</h3>
-        <p>
+        <h3 class="sitename">TMWA</h3>
+        {/* <p>
           Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
           eligendi fuga maxime saepe commodi placeat.
-        </p>
+        </p> */}
         <div class="social-links d-flex justify-content-center">
           {/* <a href="">
             <i class="bi bi-twitter-x"></i>

@@ -169,7 +169,7 @@
    * Navmenu Scrollspy
    */
   let navmenulinks = document.querySelectorAll(".navmenu a");
-
+  console.log(navmenulinks);
   function navmenuScrollspy() {
     navmenulinks.forEach((navmenulink) => {
       if (!navmenulink.hash) return;

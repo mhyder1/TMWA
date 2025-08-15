@@ -7,14 +7,14 @@ import "./app.css";
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-import Clients from "./components/clients/Clients";
-import Features from "./components/features/Features";
+// import Clients from "./components/clients/Clients";
+// import Features from "./components/features/Features";
 import Services from "./components/services/Services";
 import CallToAction from "./components/call-to-action/CallToAction";
-import Pricing from "./components/pricing/Pricing";
-import Faq from "./components/faq/Faq";
+// import Pricing from "./components/pricing/Pricing";
+// import Faq from "./components/faq/Faq";
 import Team from "./components/team/Team";
-import Gallery from "./components/gallery/Gallery";
+// import Gallery from "./components/gallery/Gallery";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
@@ -41,14 +41,14 @@ const App = () => {
       <main class="main">
         <Hero />
         <About />
-        <Clients />
-        <Features />
+        {/* <Clients /> */}
+        {/* <Features /> */}
         <Services />
         <CallToAction />
-        <Pricing />
-        <Faq />
+        {/* <Pricing /> */}
+        {/* <Faq /> */}
         <Team />
-        <Gallery />
+        {/* <Gallery /> */}
         <Contact />
       </main>
       <Footer />

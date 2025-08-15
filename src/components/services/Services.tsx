@@ -1,9 +1,9 @@
 const Services = () => {
   return (
-    <section id="services" class="services section">
+    <section id="events" class="services section">
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Events</h2>
         <p>
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
