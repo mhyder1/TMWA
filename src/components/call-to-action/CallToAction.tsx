@@ -11,19 +11,17 @@ const CallToAction = () => {
         >
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Join our team</h3>
+              <h3>Join TMWA</h3>
               <p>
-                Passionate about community and culture? Join the NC Muslim
-                Festival Planning Committee! We're looking for reliable,
-                organized, and resourceful go-getters who live in North
-                Carolina. If you're trustworthy and ready to help bring this
-                incredible event to life, submit your application today and be
-                part of something special!
+                Sisters, we invite you to join TMWA - a space built on
+                sisterhood, unity, and community. If you’re a Muslimah in the
+                Triad who believes in supporting our mission, sharing our goals,
+                and working together as a team to build a healthy & meaningful
+                bond of sisterhood, we welcome you with open arms. Come be part
+                of a community where we grow, uplift, and strengthen one another
+                for the sake of Allah; make the join our team background orange
+                instead of the starry sky.
               </p>
-              If you reside in NC and would like to be a part of the NCMF
-              planning committee, click the button below to complete an
-              application.
-              <p></p>
               <a
                 class="cta-btn"
                 href="https://form.jotform.com/243415364864158"

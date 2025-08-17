@@ -10,10 +10,13 @@ const Footer = () => {
         <div class="social-links d-flex justify-content-center">
           {/* <a href="">
             <i class="bi bi-twitter-x"></i>
-          </a>
-          <a href="">
+          </a>*/}
+          <a
+            href="https://www.facebook.com/profile.php?id=61572938665325"
+            target="_blank"
+          >
             <i class="bi bi-facebook"></i>
-          </a> */}
+          </a>
           <a href="https://www.instagram.com/triadmwa" target="_blank">
             <i class="bi bi-instagram"></i>
           </a>

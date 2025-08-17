@@ -3,8 +3,8 @@ const Team = () => {
     <section id="team" class="team section">
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Leadership Team</p>
+        <h2>2025-26 Leadership Team</h2>
+        {/* <p>Leadership Team</p> */}
       </div>
       {/* <!-- End Section Title --> */}
 
@@ -171,7 +171,7 @@ const Team = () => {
             <div class="member">
               <img src="/img/team/profile.png" class="img-fluid" alt="" />
               <div class="member-content">
-                <h4>Brenda Kirkland</h4>
+                <h4>- Open -</h4>
                 <span>Communications Officer</span>
                 {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam

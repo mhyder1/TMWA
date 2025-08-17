@@ -21,10 +21,8 @@ const About = () => {
                 December 29, 2024, by a group of local Muslimahs desiring to
                 create a healthy and meaningful bond with other Muslimahs within
                 the community for the sake of Allah (swt). TMWA is not
-                affiliated with a masjid but is an organization supported by
-                Self-Help Information Network and Exchange (SHINE), a non-profit
-                organization, founded by Robyn Abdusamad. TMWA welcomes any
-                Muslimah who is in support of our mission and goals.
+                affiliated with a masjid. TMWA welcomes any Muslimah who is in
+                support of our mission and goals.
               </p>
               {/* <ul>
                 <li>

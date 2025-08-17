@@ -79,7 +79,10 @@ const Header = () => {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="#donate">
+              <a
+                href="https://form.jotform.com/252273354573156"
+                target="_blank"
+              >
                 <button class="donate-button">DONATE</button>
               </a>
             </li>

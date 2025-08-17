@@ -51,7 +51,7 @@ const Hero = () => {
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
-              Reminders of sisterhood in Islam
+              Reminders of Sisterhood in Islam
             </h2>
             <p class="animate__animated animate__fadeInUp">
               She meets them with a smiling face - "...those who restrain all
