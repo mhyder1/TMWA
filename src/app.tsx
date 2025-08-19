@@ -9,7 +9,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 // import Clients from "./components/clients/Clients";
 // import Features from "./components/features/Features";
-import Services from "./components/services/Services";
+import Events from "./components/events/Events";
 import CallToAction from "./components/call-to-action/CallToAction";
 // import Pricing from "./components/pricing/Pricing";
 // import Faq from "./components/faq/Faq";
@@ -43,7 +43,7 @@ const App = () => {
         <About />
         {/* <Clients /> */}
         {/* <Features /> */}
-        <Services />
+        <Events />
         <CallToAction />
         {/* <Pricing /> */}
         {/* <Faq /> */}
