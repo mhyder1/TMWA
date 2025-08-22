@@ -16,7 +16,7 @@ const Team = () => {
             data-aos-delay="100"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/orange_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>Robyn Abdusamad</h4>
                 <span>Interim President</span>
@@ -46,7 +46,7 @@ const Team = () => {
             data-aos-delay="200"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/purple_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>- Open -</h4>
                 <span>Vice President</span>
@@ -76,7 +76,7 @@ const Team = () => {
             data-aos-delay="300"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/orange_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>Kimberly Harper</h4>
                 <span>Secretary</span>
@@ -105,7 +105,7 @@ const Team = () => {
             data-aos-delay="300"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/purple_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>Hasinah Sargeant</h4>
                 <span>Treasurer</span>
@@ -137,7 +137,7 @@ const Team = () => {
             data-aos-delay="300"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/orange_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>- Open -</h4>
                 <span>Membership Coordinator</span>
@@ -169,7 +169,7 @@ const Team = () => {
             data-aos-delay="300"
           >
             <div class="member">
-              <img src="/img/team/profile.png" class="img-fluid" alt="" />
+              <img src="/img/team/purple_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
                 <h4>- Open -</h4>
                 <span>Communications Officer</span>
