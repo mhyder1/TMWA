@@ -19,12 +19,11 @@ const CallToAction = () => {
                 and working together as a team to build a healthy & meaningful
                 bond of sisterhood, we welcome you with open arms. Come be part
                 of a community where we grow, uplift, and strengthen one another
-                for the sake of Allah; make the join our team background orange
-                instead of the starry sky.
+                for the sake of Allah.
               </p>
               <a
                 class="cta-btn"
-                href="https://form.jotform.com/243415364864158"
+                href="https://pci.jotform.com/form/251694076213154"
                 target="_blank"
               >
                 Join Us
