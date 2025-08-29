@@ -8,21 +8,28 @@ const About = () => {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <img src="/img/about.jpg" />
+            {/* <img src="/img/about.jpg" /> */}
+            <img src="/img/about.png" />
           </div>
 
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="inner-title">The Triad Muslim Women of Alliance</h2>
+            <h2 class="inner-title">Triad Muslim Women Alliance</h2>
             <div class="our-story">
               <h4>Est 2024</h4>
               <h3>Our Story</h3>
               <p>
-                The Triad Muslim Women of Alliance (TMWA) was established on
+                The Triad Muslim Women Alliance (TMWA) was established on
                 December 29, 2024, by a group of local Muslimahs desiring to
                 create a healthy and meaningful bond with other Muslimahs within
                 the community for the sake of Allah (swt). TMWA is not
                 affiliated with a masjid. TMWA welcomes any Muslimah who is in
                 support of our mission and goals.
+              </p>
+              <h3 class="mt-5">Our Mission</h3>
+              <p>
+                To empower Muslim women through education, mentorship and social
+                engagement, fostering a strong sense of community and sisterhood
+                while contributing to the greater good.
               </p>
               {/* <ul>
                 <li>

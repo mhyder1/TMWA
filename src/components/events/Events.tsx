@@ -6,20 +6,22 @@ const Events = () => {
     //   title: "Aromatherapy & Soap Making",
     //   event: "Come together in the spirit of connection and creativity",
     // },
-    // {
-    //   date: "Sep 20",
-    //   title: "Connect & Elevate",
-    //   event: "Level up mixer with local professional muslimahs & students",
-    // },
     {
-      date: "Oct 25",
+      date: "Sep 20",
+      title: "Connect & Elevate",
+      event:
+        "Level up mixer with local professional muslimahs & students. Invitation only.",
+      url: "",
+    },
+    {
+      date: "Nov 1",
       title: "Let's Talk About It: The Invisible Hijab",
       event:
         "A short, interactive seminar series diving into important topics that are often left unspoken in our communities",
       url: "https://pci.jotform.com/form/252273410627149",
     },
     {
-      date: "Nov 08",
+      date: "Nov 8",
       title: "Game On: Meet & Greet Edition",
       event:
         "Step outside your confort zone and connect with new sisters-good vibes, games, food, and fun in one place!",

@@ -1,7 +1,7 @@
 const CallToAction = () => {
   return (
     <section id="join" class="call-to-action section dark-background">
-      <img src="/img/cta-bg.jpg" alt="" />
+      {/* <img src="/img/cta-bg.jpg" alt="" /> */}
 
       <div class="container">
         <div

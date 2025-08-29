@@ -15,14 +15,13 @@ const Event = ({
         <div class="icon">
           <strong class="text-white">{date}</strong>
         </div>
-        {url ? (
-          <a href={url} target="_blank" class="stretched-link">
-            <h3>{title}</h3>
-          </a>
-        ) : (
-          <h3>{title}</h3>
-        )}
+        <h3>{title}</h3>
         <p>{event}</p>
+        {url && (
+          <a href={url} target="_blank" class="d-inline-block mt-4">
+            <button>Buy Ticket</button>
+          </a>
+        )}
       </div>
     </div>
   );

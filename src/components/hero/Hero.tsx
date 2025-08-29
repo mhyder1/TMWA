@@ -9,7 +9,7 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         {/* <!-- Slide 1 --> */}
-        <div class="carousel-item active">
+        {/* <div class="carousel-item active">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
               Our <span>Mission</span>
@@ -26,13 +26,13 @@ const Hero = () => {
               Read More
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- Slide 2 --> */}
-        <div class="carousel-item">
+        <div class="carousel-item active">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">
-              Reminders of sisterhood in Islam
+              Reminders of Sisterhood in Islam
             </h2>
             <p class="animate__animated animate__fadeInUp">
               She loves them as sisters for the sake of Allah - "The believers
