@@ -13,13 +13,11 @@ const CallToAction = () => {
             <div class="text-center">
               <h3>Join TMWA</h3>
               <p>
-                Sisters, we invite you to join TMWA - a space built on
-                sisterhood, unity, and community. If you’re a Muslimah in the
-                Triad who believes in supporting our mission, sharing our goals,
-                and working together as a team to build a healthy & meaningful
-                bond of sisterhood, we welcome you with open arms. Come be part
-                of a community where we grow, uplift, and strengthen one another
-                for the sake of Allah.
+                As-Salaamu Alaikum Sisters, Join TMWA—a space of sisterhood,
+                unity, and support. If you’re a Muslimah in the Triad who
+                supports our mission and would like to grow, uplift, and
+                strengthen one another for the sake of Allah (swt), we’d love to
+                have you.
               </p>
               <a
                 class="cta-btn"
