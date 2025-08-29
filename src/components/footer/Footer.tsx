@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer id="footer" class="footer light-background">
       <div class="container">
-        <h3 class="sitename">TMWA</h3>
+        <h3 class="sitename">Follow Us</h3>
         {/* <p>
           Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
           eligendi fuga maxime saepe commodi placeat.
