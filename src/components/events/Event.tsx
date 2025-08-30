@@ -18,8 +18,12 @@ const Event = ({
         <h3>{title}</h3>
         <p>{event}</p>
         {url && (
-          <a href={url} target="_blank" class="d-inline-block mt-4">
-            <button>Buy Ticket</button>
+          <a
+            href={url}
+            target="_blank"
+            class="d-inline-block mt-4 event-button"
+          >
+            Buy Ticket
           </a>
         )}
       </div>

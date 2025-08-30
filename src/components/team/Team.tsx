@@ -197,6 +197,33 @@ const Team = () => {
           {/* <!-- End Team Member --> */}
         </div>
       </div>
+      <div class="container mt-5">
+        <div class="col-lg-7 about" data-aos="fade-up" data-aos-delay="100">
+          <h2>2025-26 Committee Chairperson</h2>
+          <ul>
+            <li>
+              <i class="bi bi-check-circle"></i>{" "}
+              <span>Community Service: Mounirah Khadar - Greene</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle"></i>{" "}
+              <span>Education: Robyn Abdusamad</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle"></i>{" "}
+              <span>Health & Wellness: Hasinah Sargeant</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle"></i>{" "}
+              <span>Mentorships: Kimberly Harper Social</span>
+            </li>
+            <li>
+              <i class="bi bi-check-circle"></i>{" "}
+              <span>Engagement: Brenda Kirkland</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 };

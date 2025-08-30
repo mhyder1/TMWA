@@ -1,4 +1,41 @@
+import HeroEntry from "./HeroEntry";
+
 const Hero = () => {
+  const heroEntries = [
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She loves them as sisters for the sake of Allah - "The believers
+              are but a single brotherhood..." [Quran 49:10]`,
+      active: true,
+    },
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She meets them with a smiling face - "...[those] who restrain all
+              anger and pardon (all) men - for Allah loves those who do good."
+              [Quran 3:134]`,
+      active: false,
+    },
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She is Tolerant & Forgiving Towards Her Sisters - "No two people who love one another for the sake of Allah, or for the sake of Islam, will let the first minor offense of either of them come between them." [Bukhari]`,
+      active: false,
+    },
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She is Faithful & Kind Towards Them - "Do not think little of any good deed, even if it is just greeting your brother with a cheerful countenance." [Muslim]`,
+      active: false,
+    },
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She Does Not Gossip About Them - "...Nor speak ill of each other behind their back. Would any of you like to eat the flesh of his dead brother? Nay, you would abhor it. But fear Allah, for Allah is Oft- Returning, Most Merciful." [Quran 49:12]`,
+      active: false,
+    },
+    {
+      title: "Reminders of Sisterhood in Islam",
+      entry: `She Prays for Her Sisters in Their Absence - "The quickest prayer to be answered is a man's supplication for his brother in his absence." [Bukhari]`,
+      active: false,
+    },
+  ];
   return (
     // Hero Section
     <section id="hero" class="hero section dark-background">
@@ -8,65 +45,9 @@ const Hero = () => {
         class="container carousel carousel-fade"
         data-bs-ride="carousel"
       >
-        {/* <!-- Slide 1 --> */}
-        {/* <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Our <span>Mission</span>
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              To empower Muslim women through education, mentorship and social
-              engagement, fostering a strong sense of community and sisterhood
-              while contributing to the greater good.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-            >
-              Read More
-            </a>
-          </div>
-        </div> */}
-
-        {/* <!-- Slide 2 --> */}
-        <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Reminders of Sisterhood in Islam
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              She loves them as sisters for the sake of Allah - "The believers
-              are but a single brotherhood..." [Quran 49:10]
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-            >
-              Read More
-            </a>
-          </div>
-        </div>
-
-        {/* <!-- Slide 3 --> */}
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Reminders of Sisterhood in Islam
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              She meets them with a smiling face - "...those who restrain all
-              anger and pardon (all) men - for Allah loves those who do good."
-              [Quran 3:134]
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-            >
-              Read More
-            </a>
-          </div>
-        </div>
-
+        {heroEntries.map(({ title, entry, active }) => (
+          <HeroEntry title={title} entry={entry} active={active} />
+        ))}
         <a
           class="carousel-control-prev"
           href="#hero-carousel"

@@ -719,7 +719,8 @@ section,
   height: auto;
 }
 
-.hero .btn-get-started {
+.hero .btn-get-started,
+.event-button {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -734,7 +735,8 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-.hero .btn-get-started:hover {
+.hero .btn-get-started:hover,
+.event-button:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
   text-decoration: none;
