@@ -215,11 +215,11 @@ const Team = () => {
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Mentorships: Kimberly Harper Social</span>
+              <span>Mentorships: Kimberly Harper</span>
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Engagement: Brenda Kirkland</span>
+              <span>Social Engagement: Brenda Kirkland</span>
             </li>
           </ul>
         </div>

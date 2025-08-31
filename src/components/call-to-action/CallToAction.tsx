@@ -9,15 +9,15 @@ const CallToAction = () => {
           data-aos="zoom-in"
           data-aos-delay="100"
         >
-          <div class="col-xl-10">
+          <div class="col-xl-6">
             <div class="text-center">
               <h3>Join TMWA</h3>
+              <p>As-Salaamu Alaikum Sisters</p>
               <p>
-                As-Salaamu Alaikum Sisters, Join TMWA—a space of sisterhood,
-                unity, and support. If you’re a Muslimah in the Triad who
-                supports our mission and would like to grow, uplift, and
-                strengthen one another for the sake of Allah (swt), we’d love to
-                have you.
+                Join TMWA—a space of sisterhood, unity, and support. If you’re a
+                Muslimah in the Triad who supports our mission and would like to
+                grow, uplift, and strengthen one another for the sake of Allah
+                (swt), we’d love to have you.
               </p>
               <a
                 class="cta-btn"

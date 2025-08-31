@@ -15,8 +15,10 @@ const Events = () => {
     },
     {
       date: "Nov 1",
-      title: "Let's Talk About It: The Invisible Hijab",
-      event: "Working from the Inside Out, part 1",
+      title:
+        "Let's Talk About It: The Invisible Hijab - Working from the Inside Out, part 1",
+      event:
+        "A short, interactive seminar series diving into important topics that are often left unspoken in our communities",
       url: "https://pci.jotform.com/form/252273410627149",
     },
     {
