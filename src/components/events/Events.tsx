@@ -7,7 +7,7 @@ const Events = () => {
     //   event: "Come together in the spirit of connection and creativity",
     // },
     {
-      date: "Sep 20",
+      date: "Oct 18",
       title: "Connect & Elevate",
       event:
         "Level up mixer with local professional muslimahs & students. Invitation only.",
