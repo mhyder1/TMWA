@@ -29,6 +29,12 @@ const Events = () => {
       url: "",
     },
     {
+      date: "Dec 5",
+      title: "Anniversary Dinner at Print Works Bistro",
+      event: "Print Works Bistro, 2:30 pm",
+      email: "triadmwa@gmail.com",
+    },
+    {
       date: "Dec 29",
       title: "TMWA One Year Anniversary",
       event: "Members only retreat or celebration | TBD",
@@ -46,8 +52,14 @@ const Events = () => {
 
       <div class="container">
         <div class="row gy-4">
-          {events.map(({ date, title, event, url }) => (
-            <Event date={date} title={title} event={event} url={url} />
+          {events.map(({ date, title, event, url, email }) => (
+            <Event
+              date={date}
+              title={title}
+              event={event}
+              url={url}
+              email={email}
+            />
           ))}
         </div>
       </div>

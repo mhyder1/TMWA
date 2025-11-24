@@ -107,7 +107,7 @@ const Team = () => {
             <div class="member">
               <img src="/img/team/purple_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
-                <h4>Hasinah Sargeant</h4>
+                <h4>- Open -</h4>
                 <span>Treasurer</span>
                 {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam
@@ -211,7 +211,7 @@ const Team = () => {
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Health & Wellness: Hasinah Sargeant</span>
+              <span>Health & Wellness: Hudaa Hadiyah</span>
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}

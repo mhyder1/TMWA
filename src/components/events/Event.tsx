@@ -3,11 +3,13 @@ const Event = ({
   title,
   event,
   url,
+  email,
 }: {
   date: string;
   title: string;
   event: string;
-  url: string;
+  url?: string;
+  email?: string;
 }) => {
   return (
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -24,6 +26,15 @@ const Event = ({
             class="d-inline-block mt-4 event-button"
           >
             Buy Ticket
+          </a>
+        )}
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            target="_blank"
+            class="d-inline-block mt-4 event-button"
+          >
+            {email}
           </a>
         )}
       </div>
