@@ -28,17 +28,18 @@ const Events = () => {
         "Step outside your confort zone and connect with new sisters-good vibes, games, food, and fun in one place!",
       url: "",
     },
-    {
-      date: "Dec 5",
-      title: "Anniversary Dinner at Print Works Bistro",
-      event: "Print Works Bistro, 2:30 pm",
-      email: "triadmwa@gmail.com",
-    },
+    // {
+    //   date: "Dec 5",
+    //   title: "Anniversary Dinner at Print Works Bistro",
+    //   event: "Print Works Bistro, 2:30 pm",
+    //   email: "triadmwa@gmail.com",
+    // },
     {
       date: "Dec 29",
       title: "TMWA One Year Anniversary",
-      event: "Members only retreat or celebration | TBD",
-      url: "",
+      event: `Dinner celebration at Print Bistros at 2:30 pm.`,
+      subEvent: 'To join us, RSVP by 12/5 at:',
+      email: "triadmwa@gmail.com",
     },
   ];
   return (
@@ -52,11 +53,12 @@ const Events = () => {
 
       <div class="container">
         <div class="row gy-4">
-          {events.map(({ date, title, event, url, email }) => (
+          {events.map(({ date, title, event, subEvent, url, email }) => (
             <Event
               date={date}
               title={title}
               event={event}
+              subEvent={subEvent}
               url={url}
               email={email}
             />
