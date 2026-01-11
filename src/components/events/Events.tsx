@@ -46,12 +46,12 @@ const Events = () => {
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
         <h2>Events</h2>
-        <p>Join us at our upcoming events</p>
+        {/* <p>Join us at our upcoming events</p> */}
+        <h3>2026 Calendar of Events Coming Soon!</h3>
       </div>
       {/* <!-- End Section Title --> */}
-
       <div class="container">
-        <div class="row gy-4">
+        {/* <div class="row gy-4">
           {events.map(({ date, title, event, url, email }) => (
             <Event
               date={date}
@@ -61,7 +61,7 @@ const Events = () => {
               email={email}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
