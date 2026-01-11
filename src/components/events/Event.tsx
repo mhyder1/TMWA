@@ -2,12 +2,14 @@ const Event = ({
   date,
   title,
   event,
+  subEvent,
   url,
   email,
 }: {
   date: string;
   title: string;
   event: string;
+  subEvent?: string;
   url?: string;
   email?: string;
 }) => {
@@ -19,6 +21,7 @@ const Event = ({
         </div>
         <h3>{title}</h3>
         <p>{event}</p>
+        {subEvent && <p>{subEvent}</p>}
         {url && (
           <a
             href={url}
