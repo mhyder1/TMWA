@@ -1,6 +1,6 @@
-import Event from "./Event";
+// import Event from "./Event";
 const Events = () => {
-  const events = [
+  /*const events = [
     // {
     //   date: "Aug 30",
     //   title: "Aromatherapy & Soap Making",
@@ -41,7 +41,7 @@ const Events = () => {
       subEvent: "To join us, RSVP by 12/5 at:",
       email: "triadmwa@gmail.com",
     },
-  ];
+  ];**/
   return (
     <section id="events" class="services section">
       {/* <!-- Section Title --> */}
