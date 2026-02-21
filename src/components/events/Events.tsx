@@ -1,47 +1,6 @@
-// import Event from "./Event";
+import Event from "./Event";
+import { events } from "./eventData";
 const Events = () => {
-  /*const events = [
-    // {
-    //   date: "Aug 30",
-    //   title: "Aromatherapy & Soap Making",
-    //   event: "Come together in the spirit of connection and creativity",
-    // },
-    {
-      date: "Oct 18",
-      title: "Connect & Elevate",
-      event:
-        "Level up mixer with local professional muslimahs & students. Invitation only.",
-      url: "",
-    },
-    {
-      date: "Nov 1",
-      title:
-        "Let's Talk About It: The Invisible Hijab - Working from the Inside Out, part 1",
-      event:
-        "A short, interactive seminar series diving into important topics that are often left unspoken in our communities",
-      url: "https://pci.jotform.com/form/252273410627149",
-    },
-    {
-      date: "Nov 8",
-      title: "Game On: Meet & Greet Edition",
-      event:
-        "Step outside your confort zone and connect with new sisters-good vibes, games, food, and fun in one place!",
-      url: "",
-    },
-    // {
-    //   date: "Dec 5",
-    //   title: "Anniversary Dinner at Print Works Bistro",
-    //   event: "Print Works Bistro, 2:30 pm",
-    //   email: "triadmwa@gmail.com",
-    // },
-    {
-      date: "Dec 29",
-      title: "TMWA One Year Anniversary",
-      event: `Dinner celebration at Print Bistros at 2:30 pm.`,
-      subEvent: "To join us, RSVP by 12/5 at:",
-      email: "triadmwa@gmail.com",
-    },
-  ];**/
   return (
     <section id="events" class="services section">
       {/* <!-- Section Title --> */}
@@ -51,7 +10,7 @@ const Events = () => {
         <h3>2026 Calendar of Events Coming Soon!</h3>
       </div>
       {/* <!-- End Section Title --> */}
-      {/* <div class="container">
+      <div class="container">
         <div class="row gy-4">
           {events.map(({ date, title, event, subEvent, url, email }) => (
             <Event
@@ -64,7 +23,10 @@ const Events = () => {
             />
           ))}
         </div> 
-      </div> */}
+        <div class="mt-4">
+          All events are a private & safe space for Muslimahs to socialize and get to know one another. All events are in Greensboro, NC and is open to all Muslimahs.
+        </div>
+      </div>
     </section>
   );
 };
