@@ -7,7 +7,7 @@ const Events = () => {
       <div class="container section-title" data-aos="fade-up">
         <h2>Events</h2>
         {/* <p>Join us at our upcoming events</p> */}
-        <h3>2026 Calendar of Events Coming Soon!</h3>
+        <h3>2026 TMWA Events</h3>
       </div>
       {/* <!-- End Section Title --> */}
       <div class="container">
@@ -23,8 +23,8 @@ const Events = () => {
             />
           ))}
         </div> 
-        <div class="mt-4">
-          All events are a private & safe space for Muslimahs to socialize and get to know one another. All events are in Greensboro, NC and is open to all Muslimahs.
+        <div class="mt-4 d-flex justify-content-center w-100">
+          <p>All events are a private & safe space for Muslimahs to socialize and get to know one another. All events are in Greensboro, NC and is open to all Muslimahs.</p>
         </div>
       </div>
     </section>

@@ -20,12 +20,12 @@ const Footer = () => {
           <a href="https://www.instagram.com/triadmwa" target="_blank">
             <i class="bi bi-instagram"></i>
           </a>
-          {/* <a href="">
-            <i class="bi bi-skype"></i>
+          <a href=" https://www.tiktok.com/@triadmuslimwomenalliance" target="_blank">
+            <i class="bi bi-tiktok"></i>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/triad-muslim-women-alliance-590849383/" target="_blank">
             <i class="bi bi-linkedin"></i>
-          </a> */}
+          </a> 
         </div>
         <div class="container">
           <div class="copyright">

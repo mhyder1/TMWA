@@ -26,7 +26,7 @@ export const events: EventData[] = [
     event: "TMWA will sponsor an iftar for NCAT-MSA students.",
   },
   {
-    date: "Mar 04",
+    date: "Mar 14",
     title: "Sisters at the Range",
     event:
       "Learn the techniques of using a firearm. Will meet bi-monthly for the year.",
@@ -41,6 +41,7 @@ export const events: EventData[] = [
     title: "The Invisible Hijab: Living Your Inner Faith Outwardly, Pt 2",
     event:
       "A short, interactive seminar series diving into important topics that are often left unspoken in our communities.",
+      url: "https://pci.jotform.com/form/252273410627149"
   },
   {
     date: "Jun 27",
