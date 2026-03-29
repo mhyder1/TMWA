@@ -1,0 +1,110 @@
+Project cleanup report for TMWA
+===============================
+
+Summary
+-------
+This app began as an HTML landing page template and was partially migrated to Preact. The current codebase still contains mixed legacy static assets, template JS, and commented-out React/Preact imports. The main goal is to finish the migration by removing legacy template baggage and keeping only the Preact/Vite app code.
+
+Key issues
+----------
+1. Mixed asset pipeline
+   - `src/main.tsx` imports Bootstrap CSS/JS from npm.
+   - `index.html` still loads old vendor files from `public/vendor` and `/js/main.js`.
+   - This can cause duplicate loading, slower build, and hard-to-debug runtime behavior.
+
+2. Legacy template scripts still active
+   - `public/js/main.js` contains template behavior for nav toggling, scroll-top, AOS init, FAQ toggle, and preloader.
+   - The current React app also initializes `GLightbox` in `src/app.tsx` and uses template classes in JSX.
+   - There is no clean separation between template DOM scripting and component lifecycle.
+
+3. Unused dependencies
+   - `package.json` includes `react-bootstrap` and `wouter`, but the code does not use them.
+   - `bootstrap` is used, but the template assets loaded in HTML duplicate it.
+
+4. Stale / commented code
+   - Many components and sections are imported or rendered only as commented code in `src/app.tsx`.
+   - Many components contain large blocks of HTML comments and unused template markup.
+   - `src/components/team/Team.tsx` includes commented-out list items and social links.
+
+5. No app-level tooling or documentation
+   - No `README.md` describing setup.
+   - No lint/format tooling configured in the repository.
+
+Specific cleanup recommendations
+--------------------------------
+1. Consolidate vendor asset loading
+   - Remove old `<link>` and `<script>` tags in `index.html` for:
+     - `/vendor/bootstrap` CSS/JS
+     - `/vendor/aos/aos.css`
+     - `/vendor/glightbox/css/glightbox.min.css`
+     - `/vendor/swiper/swiper-bundle.min.css`
+     - `/vendor/aos/aos.js`
+     - `/vendor/php-email-form/validate.js`
+     - `/vendor/swiper/swiper-bundle.min.js`
+     - `/js/main.js`
+   - Prefer importing CSS/JS through npm modules in `src/main.tsx` or dedicated components.
+   - If AOS is still used, install it via npm and initialize it in a Preact lifecycle hook.
+
+2. Remove or migrate `public/js/main.js`
+   - The file is legacy template logic and should be retired.
+   - Migrate only needed behaviors to React/Preact components:
+     - Mobile nav state in `Header.tsx`
+     - Scroll-to-top button and active section highlighting
+     - Preloader if needed
+     - FAQ toggle behavior inside `Faq.tsx`
+     - AOS initialization in `App.tsx` or a dedicated hook/component
+
+3. Clean project dependencies
+   - Remove `react-bootstrap` and `wouter` from `package.json`.
+   - Optionally remove `bootstrap` if you are not using Bootstrap components and prefer custom styles.
+   - Add development tools for consistency:
+     - `eslint`, `@typescript-eslint/parser`, `@typescript-eslint/eslint-plugin`
+     - `eslint-plugin-preact` or `eslint-plugin-react` for JSX rules
+     - `prettier` and maybe `eslint-config-prettier`
+
+4. Finish component migration
+   - Remove comments and stale sections from `src/app.tsx`.
+   - Delete unused component files if the sections are not planned.
+   - Remove commented-out JSX blocks from components like `Team.tsx`, `Header.tsx`, and `About.tsx`.
+   - Convert template markup to React-friendly component props if possible.
+
+5. Improve maintainability and accessibility
+   - Add `alt` text to all images.
+   - Add `aria-label` to `<i class="mobile-nav-toggle">` or replace with a `<button>`.
+   - Avoid `href="#"`; use real hash anchors or buttons.
+   - Replace duplicate markup with reusable component data arrays if the team or events sections are repeated.
+
+6. Add documentation and scripts
+   - Create `README.md` with:
+     - `npm install`
+     - `npm run dev`
+     - `npm run build`
+   - Add scripts to `package.json`:
+     - `lint`
+     - `format`
+     - `typecheck`
+
+Priority action list
+--------------------
+1. Remove legacy `index.html` vendor imports and unused static script tags.
+2. Delete or refactor `public/js/main.js` and `public/vendor/*` if not used.
+3. Remove unused dependencies from `package.json`.
+4. Refactor `src/app.tsx` to stop using `document.querySelector()` for UI state and move that logic into components.
+5. Clean commented code in each component and delete stale imports.
+6. Add linting and README.
+
+Suggested cleanup path
+----------------------
+1. Start by making the app build and run with only the Preact imports in `src/main.tsx`.
+2. Remove the legacy template asset references from `index.html`.
+3. Migrate interactive page behavior into React components.
+4. Remove legacy vendor files from `public`.
+5. Finally, tidy up `package.json` and add developer tooling.
+
+Notes on `src/components/team/Team.tsx`
+---------------------------------------
+- There is a commented-out committee item for Social Engagement.
+- There are many commented-out social icons and placeholder content.
+- Clean this file by removing unused comment blocks and leaving only the real team structure.
+
+If you want, I can also generate a concrete cleanup patch for the first step: removing legacy static asset tags and dead scripts from `index.html` and `public/js/main.js`.

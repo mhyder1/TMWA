@@ -217,13 +217,13 @@ const Team = () => {
               <i class="bi bi-check-circle"></i>{" "}
               <span>Mentorships: Kimberly Harper</span>
             </li>
-            <li>
+            {/* <li>
               <i class="bi bi-check-circle"></i>{" "}
               <span>
                 Social Engagement: Brenda Kirkland (adults) & Zaynab Abdusamad
                 (young adults)
               </span>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
