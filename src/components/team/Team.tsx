@@ -3,7 +3,7 @@ const Team = () => {
     <section id="team" class="team section">
       {/* <!-- Section Title --> */}
       <div class="container section-title" data-aos="fade-up">
-        <h2>2025-26 Leadership Team</h2>
+        <h2>2025-27 Leadership Team</h2>
         {/* <p>Leadership Team</p> */}
       </div>
       {/* <!-- End Section Title --> */}
@@ -199,12 +199,18 @@ const Team = () => {
       </div>
       <div class="container mt-5">
         <div class="col-lg-7 about" data-aos="fade-up" data-aos-delay="100">
-          <h2>2025-26 Committee Chairperson</h2>
+          <h2>2025-27 Committee Chairperson</h2>
           <ul>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Community Service: Mounirah Khadar - Greene, Khadija Pierce - Norfleet</span>
+              <div>
+                <span>Community Service: Mounirah Khadar - Greene</span>
+              </div>
             </li>
+                <ul>
+                  <li style={{ marginLeft: '5rem' }}>
+                    <span>Members: Khadija Pierce - Norfleet</span></li>
+                </ul>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
               <span>Education: Robyn Abdusamad</span>
@@ -217,13 +223,12 @@ const Team = () => {
               <i class="bi bi-check-circle"></i>{" "}
               <span>Mentorships: Kimberly Harper</span>
             </li>
-            {/* <li>
+            <li>
               <i class="bi bi-check-circle"></i>{" "}
               <span>
-                Social Engagement: Brenda Kirkland (adults) & Zaynab Abdusamad
-                (young adults)
+                Social Engagement: Zaynab Abdusamad (teens/young adults)
               </span>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
