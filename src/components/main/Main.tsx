@@ -1,5 +1,7 @@
+import type { ComponentChildren } from "preact";
+
 interface Props {
-  children?: React.PropsWithChildren | React.ReactElement;
+  children?: ComponentChildren;
 }
 
 const Main = ({ children }: Props) => {

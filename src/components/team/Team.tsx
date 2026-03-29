@@ -203,7 +203,7 @@ const Team = () => {
           <ul>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Community Service: Mounirah Khadar - Greene</span>
+              <span>Community Service: Mounirah Khadar - Greene, Khadija Pierce - Norfleet</span>
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
