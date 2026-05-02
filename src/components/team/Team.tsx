@@ -139,7 +139,7 @@ const Team = () => {
             <div class="member">
               <img src="/img/team/orange_flower.jpg" class="img-fluid" alt="" />
               <div class="member-content">
-                <h4>- Open -</h4>
+                <h4>Kayla Walton</h4>
                 <span>Membership Coordinator</span>
                 {/* <p>
                   Voluptas necessitatibus occaecati quia. Earum totam
@@ -226,9 +226,13 @@ const Team = () => {
             <li>
               <i class="bi bi-check-circle"></i>{" "}
               <span>
-                Social Engagement: Zaynab Abdusamad (teens/young adults)
+                Social Engagement: Zaynab Abdusamad (teens/young adults)/Courtney Caesar (adults)
               </span>
             </li>
+            <ul>
+                  <li style={{ marginLeft: '5rem' }}>
+                    <span>Members: Kayla Walton</span></li>
+                </ul>
           </ul>
         </div>
       </div>
