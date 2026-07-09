@@ -56,13 +56,6 @@ export const events: EventData[] = [
     subEvent: "Ages 13–25.",
   },
   {
-    date: "Jul 17–18",
-    title: "UMB Youth Empowerment Summit",
-    event:
-      "Mentoring program guided by faith, leadership & sisterhood.",
-    subEvent: "Ages 11–17.",
-  },
-  {
     date: "Sept 19",
     title: "Professional Muslimah Speed-Networking Mixer",
     event:
@@ -74,6 +67,13 @@ export const events: EventData[] = [
     event:
       "Come learn & discuss ways of maintaining your Muslim identity in various spaces of life.",
     subEvent: "For college-aged students.",
+  },
+    {
+    date: "Dec 21",
+    title: "UMB Youth Empowerment Summit",
+    event:
+      "Mentoring program guided by faith, leadership & sisterhood.",
+    subEvent: "Ages 11–17.",
   },
   {
     date: "Dec 29",
