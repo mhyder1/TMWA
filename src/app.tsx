@@ -9,6 +9,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 // import Clients from "./components/clients/Clients";
 // import Features from "./components/features/Features";
+import Scholarship from "./components/scholarship/Scholarship";
 import Events from "./components/events/Events";
 import CallToAction from "./components/call-to-action/CallToAction";
 // import Pricing from "./components/pricing/Pricing";
@@ -49,6 +50,7 @@ const App = () => {
         {/* <Faq /> */}
         <Team />
         {/* <Gallery /> */}
+        <Scholarship />
         <Contact />
       </main>
       <Footer />

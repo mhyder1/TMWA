@@ -32,6 +32,9 @@ const Header = () => {
             <li>
               <a href="#team">Team</a>
             </li>
+            <li>
+              <a href="#scholarship">Scholarship</a> {/** scholarship */}
+            </li>
             {/* <li class="dropdown">
               <a href="#">
                 <span>Dropdown</span>{" "}
