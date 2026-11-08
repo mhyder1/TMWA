@@ -217,7 +217,7 @@ const Team = () => {
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
-              <span>Health & Wellness: Hudaa Hadiyah</span>
+              <span>Health & Wellness: Open</span>
             </li>
             <li>
               <i class="bi bi-check-circle"></i>{" "}
