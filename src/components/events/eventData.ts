@@ -5,6 +5,8 @@ export interface EventData {
   subEvent?: string;
   url?: string;
   email?: string;
+  action?: 'register'|'buy'
+  instructions?: string
 }
 
 export const events: EventData[] = [
@@ -69,11 +71,14 @@ export const events: EventData[] = [
     subEvent: "For college-aged students.",
   },
     {
-    date: "Dec 21",
-    title: "UMB Youth Empowerment Summit",
+    date: "Dec 22",
+    title: "TMWA Youth Empowerment Summit",
     event:
       "Mentoring program guided by faith, leadership & sisterhood.",
-    subEvent: "Ages 11–17.",
+    subEvent: "Ages 11–17",
+    url: 'https://pci.jotform.com/form/252273410627149',
+    instructions: 'Registration ends December 14, 2026 at 5pm EST',
+    action: 'register'
   },
   {
     date: "Dec 29",

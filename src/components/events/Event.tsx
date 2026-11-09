@@ -5,6 +5,8 @@ const Event = ({
   subEvent,
   url,
   email,
+  action,
+  instructions
 }: {
   date: string;
   title: string;
@@ -12,6 +14,8 @@ const Event = ({
   subEvent?: string;
   url?: string;
   email?: string;
+  action: 'register'| 'buy',
+  instructions
 }) => {
   return (
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -22,13 +26,14 @@ const Event = ({
         <h3>{title}</h3>
         <p>{event}</p>
         {subEvent && <p>{subEvent}</p>}
+        {instructions && <p>{instructions}</p>}
         {url && (
           <a
             href={url}
             target="_blank"
             class="d-inline-block mt-4 event-button"
           >
-            Buy Ticket
+            {action === 'register' ? 'Register here' :'Buy Ticket'}
           </a>
         )}
         {email && (

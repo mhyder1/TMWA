@@ -27,7 +27,7 @@ const Events = () => {
       {/* <!-- End Section Title --> */}
       <div class="container">
         <div class="row gy-4">
-          {upcomingEvents.map(({ date, title, event, subEvent, url, email }) => (
+          {upcomingEvents.map(({ date, title, event, subEvent, url, email, action,instructions }) => (
             <Event
               date={date}
               title={title}
@@ -35,6 +35,8 @@ const Events = () => {
               subEvent={subEvent}
               url={url}
               email={email}
+              action={action}
+              instructions={instructions}
             />
           ))}
         </div>
