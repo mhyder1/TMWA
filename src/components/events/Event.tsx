@@ -14,8 +14,8 @@ const Event = ({
   subEvent?: string;
   url?: string;
   email?: string;
-  action: 'register'| 'buy',
-  instructions
+  action?: 'register'| 'buy';
+  instructions?: string;
 }) => {
   return (
     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
